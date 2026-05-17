@@ -62,8 +62,8 @@ const INITIAL_GAMES = [
   },
 ];
 
-// 크롤링 백엔드 서버 URL 설정 (사용자의 Wi-Fi IP 주소로 지정)
-const API_BASE_URL = "https://shank-daybed-morbidly.ngrok-free.dev";
+// 크롤링 백엔드 서버 URL 설정 (Render 실서버 배포 주소)
+const API_BASE_URL = "https://homerun-pick.onrender.com";
 const GAME_SCHEDULE_API_URL = `${API_BASE_URL}/api/games`;
 
 // kbo-scraper의 전체 팀 이름을 홈런픽의 고유 ID로 변환합니다.
